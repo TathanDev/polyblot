@@ -1,7 +1,6 @@
 
 const { SlashCommandBuilder, EmbedBuilder, AttachmentBuilder } = require('discord.js');
 
-const config = require("../config.json")
 const helpdb = require("../helpers/db-helper")
 const Sequelize = require('sequelize');
 

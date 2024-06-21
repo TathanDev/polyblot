@@ -7,7 +7,7 @@ const sequelize = new Sequelize('database', 'user', 'password', {
 	storage: 'database.sqlite',
 });
 
-const { successPerWin } = require('../config.json')
+const { successPerWin } = require('../config/config.json');
 
 module.exports.Stats = sequelize.define('stats', {
     id: {

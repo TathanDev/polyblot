@@ -1,7 +1,7 @@
 const { Client, Events, Collection, ActivityType, GatewayIntentBits, ButtonBuilder , ButtonStyle, ActionRowBuilder} = require('discord.js');
 const Sequelize = require('sequelize');
 
-const config = require('./config.json');
+const config = require('./config/config.json');
 const fs = require('node:fs');
 const path = require('node:path');
 const bot = new Client({ 

@@ -1,14 +1,12 @@
 
 const { SlashCommandBuilder, EmbedBuilder, ChannelType } = require('discord.js');
 
-const config = require("../config.json")
-const helpdb = require("../helpers/db-helper")
 const voiceHelp = require("../helpers/voice-helper")
 
 module.exports = {
 	data: new SlashCommandBuilder()
 		.setName('voice')
-		.setDescription('Your stats !')
+		.setDescription('Train to listen !')
 		.addStringOption(option =>
 			option.setName('language')
 				.setDescription('Which Language ?')
