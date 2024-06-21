@@ -77,6 +77,7 @@ module.exports.voiceHandler = async function (questions, interaction, channel) {
         })
       })
       answered = true
+      connection.destroy();
       collector.stop()
     })
 
@@ -107,6 +108,8 @@ module.exports.voiceHandler = async function (questions, interaction, channel) {
           .setColor(0xff0000)
           interaction.followUp({ embeds: [answer], ephemeral: true })
           answered = true
+          connection.destroy();
+
       })
   }
 }
