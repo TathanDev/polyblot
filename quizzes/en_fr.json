@@ -39,6 +39,51 @@
 		{
 			"question": "Traduisez '**where is the bathroom**' en français",
 			"answers": ["où est la salle de bain", "ou est la salle de bain", "où sont les toilettes", "ou sont les toilettes"]
+		},
+
+
+
+
+
+		{
+			"question": "Comment dit-on '**how are you**' en français ?",
+			"answers": ["comment ça va", "comment ca va", "ca va", "ça va"]
+		},
+		{
+			"question": "Traduisez '**I'm sorry**' en français",
+			"answers": ["je suis désolé", "je suis desole", "desole", "désolé"]
+		},
+		{
+			"question": "Comment dit-on '**see you later**' en français ?",
+			"answers": ["à plus tard", "a plus tard", "plus tard"]
+		},
+		{
+			"question": "Traduisez '**my name is**' en français",
+			"answers": ["je m'appelle", "je m appelle", "je mappelle"]
+		},
+		{
+			"question": "Comment dit-on '**good evening**' en français ?",
+			"answers": ["bonsoir"]
+		},
+		{
+			"question": "Traduisez '**happy birthday**' 🎉 en français",
+			"answers": ["joyeux anniversaire", "joyeux anniversaire"]
+		},
+		{
+			"question": "Comment dit-on '**congratulations**' en français ?",
+			"answers": ["félicitations", "felicitations", "felicitation"]
+		},
+		{
+			"question": "Traduisez '**do you speak English**' en français",
+			"answers": ["parlez-vous anglais", "parlez vous anglais"]
+		},
+		{
+			"question": "Comment dit-on '**I don't understand**' en français ?",
+			"answers": ["je ne comprends pas", "je ne comprend pas"]
+		},
+		{
+			"question": "Traduisez '**can you help me**' en français",
+			"answers": ["pouvez-vous m'aider", "pouvez vous m'aider", "pouvez vous m aider"]
 		}
 	],
 	"choices": [
@@ -91,6 +136,58 @@
 			"question": "Which French writer wrote 'Les Misérables'?",
 			"answers": ["Émile Zola", "Gustave Flaubert", "Marcel Proust", "Victor Hugo"],
 			"correct": 3
+		},
+		
+
+		{
+			"question": "What is the largest museum in France?",
+			"answers": ["Musée d'Orsay", "Centre Pompidou", "Louvre Museum", "Rodin Museum"],
+			"correct": 2
+		},
+		{
+			"question": "Which French city is known for its annual film festival?",
+			"answers": ["Cannes", "Lyon", "Marseille", "Bordeaux"],
+			"correct": 0
+		},
+		{
+			"question": "What is the name of the famous cathedral in Paris that was damaged by fire in 2019?",
+			"answers": ["Notre-Dame", "Sainte-Chapelle", "Sacré-Cœur", "Saint-Sulpice"],
+			"correct": 0
+		},
+		{
+			"question": "Which French region is famous for producing Champagne?",
+			"answers": ["Bordeaux", "Provence", "Burgundy", "Champagne"],
+			"correct": 3
+		},
+		{
+			"question": "Which French city is known as the 'City of Lights'?",
+			"answers": ["Paris", "Nice", "Lille", "Strasbourg"],
+			"correct": 0
+		},
+		{
+			"question": "Which French king was known as the 'Sun King'?",
+			"answers": ["Louis XIV", "Louis XVI", "Charles V", "Henry IV"],
+			"correct": 0
+		},
+		{
+			"question": "Which structure was gifted to the United States by France in 1886?",
+			"answers": ["The Eiffel Tower", "The Statue of Liberty", "Arc de Triomphe", "Mont Saint-Michel"],
+			"correct": 1
+		},
+		{
+			"question": "Which French philosopher is known for the statement 'I think, therefore I am'?",
+			"answers": ["Jean-Paul Sartre", "René Descartes", "Voltaire", "Michel Foucault"],
+			"correct": 1
+		},
+		{
+			"question": "What is the national motto of France?",
+			"answers": ["Liberty, Equality, Fraternity", "Freedom, Justice, Peace", "Unity, Discipline, Work", "Truth, Honor, Valor"],
+			"correct": 0
+		},
+		{
+			"question": "Which mountain range forms the natural border between France and Spain?",
+			"answers": ["Alps", "Pyrenees", "Appalachians", "Rockies"],
+			"correct": 1
 		}
 	],
 	

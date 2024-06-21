@@ -24,7 +24,7 @@ module.exports = {
 		interaction.guild.members.fetch(interaction.user.id).then((member) => {
 
 			if (!member.voice.channel) {
-				interaction.reply("You are not in a voice channel. You need to be in a voice channel to play this game.")
+				interaction.reply({content: "You are not in a voice channel. You need to be in a voice channel to play this game.", ephemeral:true})
 				return
 			}
 			voiceHelp.voiceHandler(file.voices, interaction, member.voice.channel)

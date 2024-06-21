@@ -39,6 +39,49 @@
 		{
 			"question": "Translate '**where is the bathroom**' to Spanish",
 			"answers": ["¿dónde está el baño?", "donde esta el bano", "¿dónde está el servicio?", "donde esta el servicio"]
+		},
+
+
+
+		{
+			"question": "¿Cómo se dice '**how are you**' en español?",
+			"answers": ["¿cómo estás?", "como estas", "¿cómo te va?", "como te va"]
+		},
+		{
+			"question": "Translate '**I'm sorry**' to Spanish",
+			"answers": ["lo siento"]
+		},
+		{
+			"question": "¿Cómo se dice '**see you later**' en español?",
+			"answers": ["hasta luego"]
+		},
+		{
+			"question": "Translate '**my name is**' to Spanish",
+			"answers": ["me llamo"]
+		},
+		{
+			"question": "¿Cómo se dice '**good evening**' en español?",
+			"answers": ["buenas tardes"]
+		},
+		{
+			"question": "Translate '**happy birthday**' to Spanish",
+			"answers": ["feliz cumpleaños", "feliz cumpleanos"]
+		},
+		{
+			"question": "¿Cómo se dice '**congratulations**' en español?",
+			"answers": ["felicitaciones"]
+		},
+		{
+			"question": "Translate '**do you speak English**' to Spanish",
+			"answers": ["¿hablas inglés?", "hablas ingles"]
+		},
+		{
+			"question": "¿Cómo se dice '**I don't understand**' en español?",
+			"answers": ["no entiendo", "No lo entiendo."]
+		},
+		{
+			"question": "Translate '**can you help me**' to Spanish",
+			"answers": ["¿puedes ayudarme?", "puedes ayudarme"]
 		}
 	],
 	"choices": [
