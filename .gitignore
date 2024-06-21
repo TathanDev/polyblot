@@ -133,3 +133,7 @@ config.json
 config.json
 .config.json
 config.json
+
+.database.sqlite
+.env
+database.sqlite
