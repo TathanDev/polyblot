@@ -1,0 +1,120 @@
+{
+	"translate": [
+		{
+			"question": "Comment dit-on '**please**' en français ?",
+			"answers": ["s'il vous plaît", "sil vous plait", "s il vous plait"]
+		},
+		{
+			"question": "Traduisez '**thank you**' en français",
+			"answers": ["merci"]
+		},
+		{
+			"question": "Comment dit-on '**excuse me**' en français ?",
+			"answers": ["excusez-moi", "excusez moi", "excuse moi"]
+		},
+		{
+			"question": "Traduisez '**I love you**' en français",
+			"answers": ["je t'aime", "je taime", "je t aime"]
+		},
+		{
+			"question": "Comment dit-on '**good morning**' en français ?",
+			"answers": ["bonjour"]
+		},
+		{
+			"question": "Traduisez '**good night**' en français",
+			"answers": ["bonne nuit"]
+		},
+		{
+			"question": "Comment dit-on '**yes**' en français ?",
+			"answers": ["oui"]
+		},
+		{
+			"question": "Traduisez '**no**' en français",
+			"answers": ["non"]
+		},
+		{
+			"question": "Comment dit-on '**help**' en français ?",
+			"answers": ["aidez-moi", "aide moi"]
+		},
+		{
+			"question": "Traduisez '**where is the bathroom**' en français",
+			"answers": ["où est la salle de bain", "ou est la salle de bain", "où sont les toilettes", "ou sont les toilettes"]
+		}
+	],
+	"choices": [
+		{
+			"question": "What is the capital of France?",
+			"answers": ["Paris", "Madrid", "Barcelona", "Mexico"],
+			"correct": 0
+		},
+		{
+			"question": "Which of these is a famous French dish?",
+			"answers": ["Croissant", "Ratatouille", "Bouillabaisse", "Pizza"],
+			"correct": 1
+		},
+		{
+			"question": "What is the official language of France?",
+			"answers": ["German", "French", "Spanish", "Portuguese"],
+			"correct": 1
+		},
+		{
+			"question": "Which city is famous for the Eiffel Tower?",
+			"answers": ["Marseille", "Nice", "Lyon", "Paris"],
+			"correct": 3
+		},
+		{
+			"question": "What currency is used in France?",
+			"answers": ["Euro", "Dollar", "Pound", "Yen"],
+			"correct": 0
+		},
+		{
+			"question": "Which festival is famous for its carnival parades in France?",
+			"answers": ["Nice Carnival", "Festival of Lights", "Avignon Festival", "Cannes Film Festival"],
+			"correct": 0
+		},
+		{
+			"question": "Which French artist is known for impressionist paintings?",
+			"answers": ["Claude Monet", "Paul Cézanne", "Edgar Degas", "Pierre-Auguste Renoir"],
+			"correct": 0
+		},
+		{
+			"question": "Which French region is famous for its wines?",
+			"answers": ["Burgundy", "Alsace", "Bordeaux", "Champagne"],
+			"correct": 2
+		},
+		{
+			"question": "What river flows through Paris?",
+			"answers": ["Rhine", "Seine", "Loire", "Garonne"],
+			"correct": 1
+		},
+		{
+			"question": "Which French writer wrote 'Les Misérables'?",
+			"answers": ["Émile Zola", "Gustave Flaubert", "Marcel Proust", "Victor Hugo"],
+			"correct": 3
+		}
+	],
+	
+	"voices": [
+		{
+			"question": "Translate in english.",
+			"file": "fr/i_love_bread.mp3",
+			"answers": ["I like bread", "I love bread"]
+		},
+		{
+			"question": "Translate in english.",
+			"file": "fr/how_are_you.mp3",
+			"answers": ["How are you ?", "How are you"]
+		},
+
+		{
+			"question": "Translate in english.",
+			"file": "fr/what_time.mp3",
+			"answers": ["What time is it ?", "What time is it"]
+		},
+		{
+			"question": "Translate in english.",
+			"file": "fr/want_baguette.mp3",
+			"answers": ["I want a baguette", "I want bread"]
+		}
+	]
+}

@@ -1,0 +1,97 @@
+{
+	"translate": [
+		{
+			"question": "¿Cómo se dice '**please**' en español?",
+			"answers": ["por favor"]
+		},
+		{
+			"question": "Translate '**thank you**' to Spanish",
+			"answers": ["gracias"]
+		},
+		{
+			"question": "¿Cómo se dice '**excuse me**' en español?",
+			"answers": ["disculpe", "perdon"]
+		},
+		{
+			"question": "Translate '**I love you**' to Spanish",
+			"answers": ["te quiero", "te amo"]
+		},
+		{
+			"question": "¿Cómo se dice '**good morning**' en español?",
+			"answers": ["buenos días", "buenos dias"]
+		},
+		{
+			"question": "Translate '**good night**' to Spanish",
+			"answers": ["buenas noches"]
+		},
+		{
+			"question": "¿Cómo se dice '**yes**' en español?",
+			"answers": ["sí", "si"]
+		},
+		{
+			"question": "Translate '**no**' to Spanish",
+			"answers": ["no"]
+		},
+		{
+			"question": "¿Cómo se dice '**help**' en español?",
+			"answers": ["ayuda"]
+		},
+		{
+			"question": "Translate '**where is the bathroom**' to Spanish",
+			"answers": ["¿dónde está el baño?", "donde esta el bano", "¿dónde está el servicio?", "donde esta el servicio"]
+		}
+	],
+	"choices": [
+		{
+			"question": "What is the capital of Spain?",
+			"answers": ["Paris", "Madrid", "Barcelona", "Mexico"],
+			"correct": 1
+		},
+		{
+			"question": "Which of these is a famous Spanish dish?",
+			"answers": ["Sushi", "Paella", "Tacos", "Pizza"],
+			"correct": 1
+		},
+		{
+			"question": "What is the official language of Spain?",
+			"answers": ["French", "German", "Spanish", "Portuguese"],
+			"correct": 2
+		},
+		{
+			"question": "Which city is known for the Sagrada Familia?",
+			"answers": ["Madrid", "Seville", "Valencia", "Barcelona"],
+			"correct": 3
+		},
+		{
+			"question": "What currency is used in Spain?",
+			"answers": ["Dollar", "Pound", "Euro", "Yen"],
+			"correct": 2
+		},
+		{
+			"question": "Which festival involves running with bulls?",
+			"answers": ["La Tomatina", "Carnival", "San Fermin", "Las Fallas"],
+			"correct": 2
+		},
+		{
+			"question": "Which Spanish artist is known for cubism?",
+			"answers": ["Salvador Dalí", "Pablo Picasso", "Joan Miró", "Francisco Goya"],
+			"correct": 1
+		},
+		{
+			"question": "Which Spanish island is famous for its nightlife?",
+			"answers": ["Ibiza", "Mallorca", "Gran Canaria", "Tenerife"],
+			"correct": 0
+		},
+		{
+			"question": "What is the largest city in Spain?",
+			"answers": ["Madrid", "Barcelona", "Valencia", "Seville"],
+			"correct": 0
+		},
+		{
+			"question": "Which Spanish painter created 'Las Meninas'?",
+			"answers": ["El Greco", "Diego Velázquez", "Francisco Goya", "Salvador Dali"],
+			"correct": 1
+		}
+	]
+
+}
