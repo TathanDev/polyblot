@@ -59,7 +59,7 @@
 		},
 		{
 			"question": "Traduisez '**my name is**' en français",
-			"answers": ["je m'appelle", "je m appelle", "je mappelle"]
+			"answers": ["je m'appelle", "je m appelle", "je mappelle", "mon nom est"]
 		},
 		{
 			"question": "Comment dit-on '**good evening**' en français ?",

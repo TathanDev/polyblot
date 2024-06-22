@@ -5,7 +5,7 @@ const questionHelp = require("../helpers/question-helper")
 
 module.exports = {
 	data: new SlashCommandBuilder()
-		.setName('exercice')
+		.setName('exercise')
 		.setDescription('Learn new language !')
     .addStringOption(option =>
 			option.setName('language')

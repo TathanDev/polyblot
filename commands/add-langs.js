@@ -1,7 +1,6 @@
 
 const { SlashCommandBuilder, EmbedBuilder, ChannelType } = require('discord.js');
 
-const voiceHelp = require("../helpers/voice-helper")
 
 module.exports = {
 	data: new SlashCommandBuilder()
@@ -11,13 +10,13 @@ module.exports = {
     async execute(interaction, bot) {
 		const newLang = new EmbedBuilder()
         .setTitle("Want to add new langs ?")
-        .setDescription("For the moment, **Polyblot** only support two langs, `French` and `Spanish`.\nWhy Because I, the creator of the bot, speak French, Spanish and English.\nYou can add your own language by opening a pull request on the **github**.")
+        .setDescription("For the moment, **Polyblot** only support two langs, `French` and `Spanish`.\nWhy Because I, the creator of the bot, speak French, Spanish and English.\nYou can add your own language by opening a pull request on the **github**.\n")
 		.addFields(
 			{ name: 'Github', value: '[link](https://github.com/TathanDev/polyblot)', inline: true },
 			{ name: 'Add a lang', value: '[link](https://github.com/TathanDev/polyblot/pulls)', inline: true },
 			{ name: 'Find a bug/problem ?', value: '[link](https://github.com/TathanDev/polyblot/issues)', inline: true },
 		)
-		.setColor(0x00ff00)
+		.setColor(0x454FBF)
 		.setThumbnail(bot.user.displayAvatarURL())
 		
 		interaction.reply({ embeds: [newLang]})

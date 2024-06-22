@@ -54,10 +54,10 @@ bot.on('interactionCreate', async interaction => {
 		await command.execute(interaction, bot);
 	} catch (error) {
 		console.error(error);
-		await interaction.reply({ content: "No it's broken !.\nJe te conseille de MP TATHAN#0007.\n \n```js\n" + `${error}` + "\n```\nCommand : " + `${interaction}` , ephemeral: true });        
+		await interaction.reply({ content: "It's seems that you broke me... It would be really cool if you could send this to **tathan06**\n.\n \n```js\n" + `${error}` + "\n```\nCommand : " + `${interaction}` , ephemeral: true });        
 
 	}
 });
 
-bot.login(config.testToken);
+bot.login(config.token);
 
