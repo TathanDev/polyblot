@@ -59,5 +59,5 @@ bot.on('interactionCreate', async interaction => {
 	}
 });
 
-bot.login(config.token);
+bot.login(config.testToken);
 

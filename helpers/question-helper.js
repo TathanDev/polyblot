@@ -11,7 +11,7 @@ module.exports.translateHandler = async function (questions, interaction) {
 
     interaction.reply({ content: item.question, fetchReply: true })
     
-    const collector = interaction.channel.createMessageCollector({ filter: collectorFilter, time: 20_000 });
+    const collector = interaction.channel.createMessageCollector({ filter: collectorFilter, time: 5_000 });
     
     let answered = false
 
@@ -36,9 +36,15 @@ module.exports.translateHandler = async function (questions, interaction) {
       if (answered) return
             helpdb.addUserStats(interaction.user.id, -1).then((stats) => {
               helpdb.updateWinStreak(interaction.user.id, false).then((stats) => {
+                
                 const answer = new EmbedBuilder()
                 .setTitle("Wrong !")
-                .setDescription("You have now " + stats.get("success") + " success...")
+                .setDescription("You have now `" + stats.get("success") + "` success !")
+                .addFields(
+                    { name: "Question", value: item.question},
+                    { name: "Correct Answer", value: item.answers[0] }
+                )
+                .setFooter({ text: "Win Streak: " + stats.get("streak") + " 🔥!"})
                 .setColor(0xff0000)
                 interaction.followUp({ embeds: [answer], ephemeral: true })
             })
